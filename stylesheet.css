@@ -1,0 +1,80 @@
+@charset “utf-8″;
+
+a {
+    text-decoration: none;
+}
+
+body,html {
+    margin: 0;  /* 解決するため */
+    padding: 0; /* 入れておくと無難 */
+  }
+
+header {
+    background-color:rgb(255, 0, 0);
+    opacity: 0.5;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+}
+
+.container {
+    width:1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    margin-top:15px;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.main-nav {
+    list-style: none;
+    display: flex;
+}
+
+.main-nav a {
+    margin-left:36px;
+    margin-top:25px;
+    color:black;
+    font-size:20px;
+    border-bottom: none;
+}
+
+.main-wrapper {
+    background-image: url(https://images.unsplash.com/photo-1607301406259-dfb186e15de8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGphcGFuZXNlJTIwZm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60);
+    background-size: cover;
+    margin-bottom: 0;
+    margin-bottom: 0;
+    height: 700px;
+
+}
+
+.main-container {
+    text-align:center;
+    
+
+    
+}
+
+
+
+.message {
+    margin-top: 0;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top:300px;
+    font-size: 40px;
+    color:white;
+}
+
+.sub-message {
+  padding-bottom:0;
+  font-size: 40px;
+  color:white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
